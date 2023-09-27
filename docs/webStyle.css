@@ -1,0 +1,32 @@
+/* Main Container ---------------------------------------------------------------------------- */
+body
+{
+    background-color: pink;
+    text-align: center;
+    margin:auto;
+    padding: 2em;
+}
+
+div.container
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+div.text
+{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+div.image
+{
+    max-width: 500px;
+    width: 100%;
+}
+
+object
+{
+    width: 1080px;
+    height: 1920px;
+}
